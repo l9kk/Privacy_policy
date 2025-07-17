@@ -61,18 +61,45 @@ Our Application uses your device's camera to capture facial images for skincare 
 - **What we collect:** We collect facial images that you take using the camera within our Application for the sole purpose of analyzing your skin condition and providing personalized skincare recommendations.
 - **How we collect it:** Face data is collected only when you actively use the camera feature within our Application with your explicit consent.
 - **Purpose:** Face data is used exclusively for skincare analysis, skin condition assessment, and providing personalized skincare recommendations. We do not use face data for user identification, profiling, marketing, advertising, or any other purpose.
+- **Specific Reasons for Storage:** We temporarily store face data to:
+  - Analyze skin conditions, texture, and imperfections using AI algorithms
+  - Generate personalized skincare recommendations based on facial analysis
+  - Provide before/after comparison capabilities for progress tracking
+  - Ensure analysis accuracy through our advanced machine learning models
 
 ##### Face Data Storage and Retention
 
 - **Local Processing:** When possible, facial images are processed locally on your device and are not transmitted to our servers.
 - **Server Processing:** When server-side analysis is required for advanced skincare assessment, facial images may be temporarily transmitted to our secure servers for processing only.
 - **No Long-term Storage:** **Face data is not retained or stored permanently.** Facial images are deleted immediately after analysis is complete, typically within 24 hours.
+- **Storage Duration Justification:** The 24-hour retention period is necessary to:
+  - Complete comprehensive AI analysis that may require multiple processing steps
+  - Ensure quality assurance and accurate results before deletion
+  - Handle temporary network interruptions or processing delays
+  - Provide immediate reanalysis if initial processing fails
+  
+  After this period, all facial images are permanently and irreversibly deleted from our systems.
 - **Temporary Processing:** During analysis, face data may be temporarily stored in memory for processing purposes only and is automatically deleted upon completion of the analysis.
 
 ##### Face Data Sharing with Third Parties
 
 - **Analysis Services:** We may share facial images with trusted third-party AI analysis services solely for the purpose of providing skincare analysis and recommendations.
+- **Third-party Sharing Details:** Face data may be shared with the following types of service providers:
+  - **AI Analysis Providers:** Specialized companies that provide facial analysis and skin condition assessment algorithms
+  - **Cloud Computing Services:** Secure cloud platforms that process the analysis computations
+  - **Image Processing Services:** Services that enhance image quality for more accurate analysis
+  
+  All third-party sharing is strictly limited to skincare analysis purposes and governed by data processing agreements.
 - **Third-party Storage:** Our third-party analysis partners do not store face data permanently. They process images temporarily and delete them immediately after providing analysis results.
+- **Third-party Storage Practices:** All third-party partners are contractually required to:
+  - **Delete face data within 24 hours** of processing completion
+  - **Implement enterprise-grade security** including encryption in transit and at rest
+  - **Restrict access** to face data to authorized personnel only for analysis purposes
+  - **Prohibit secondary use** of face data for training, profiling, or any other purpose
+  - **Maintain audit logs** of all face data access and processing activities
+  - **Comply with data protection laws** including GDPR, CCPA, and Apple's privacy guidelines
+  
+  We regularly audit our third-party partners to ensure compliance with these strict requirements.
 - **No Commercial Use:** Face data is never shared with third parties for marketing, advertising, profiling, or any commercial purposes beyond skincare analysis.
 - **Security Requirements:** All third-party partners who process face data are required to maintain the same level of data protection and deletion practices as described in this policy.
 
@@ -82,6 +109,18 @@ Our Application uses your device's camera to capture facial images for skincare 
 - **Deletion:** Since face data is not stored long-term, there is no persistent data to delete. However, you can request confirmation of deletion by contacting us.
 - **No Reconstruction:** We do not attempt to reconstruct user profiles, identify anonymous users, or build databases from face data.
 - **Local Control:** You maintain full control over when and how facial images are captured within our Application.
+
+##### Apple App Store Compliance for Face Data
+
+In accordance with Apple's App Store Review Guidelines, specifically Section 5.1.1 (Privacy - Data Collection and Storage), we provide the following comprehensive information about our face data practices:
+
+- **Explicit Purpose Declaration:** Face data is collected exclusively for skincare analysis and personalized product recommendations. No other use cases are permitted.
+- **Storage Justification:** Temporary storage (maximum 24 hours) is necessary to complete comprehensive AI analysis that requires multiple processing steps and quality assurance.
+- **Third-party Transparency:** We partner only with verified AI analysis providers who are contractually bound to the same data protection standards and deletion timelines.
+- **No Profiling or Identification:** Face data is never used to identify individuals, create user profiles, or for any biometric identification purposes.
+- **User Control:** Users maintain complete control over face data collection through device-level camera permissions and can withdraw consent at any time.
+- **Data Minimization:** We collect only the minimum face data necessary for skincare analysis and delete all data promptly after processing.
+- **Security Measures:** All face data is encrypted in transit and at rest, with access restricted to authorized systems and personnel only.
 
 #### Usage Data
 
@@ -218,4 +257,4 @@ If you have any questions about this Privacy Policy, You can contact us:
 
 - By email: askhat.ss23@gmail.com
 
-We are committed to protecting your privacy and complying with all applicable privacy laws and Apple's guidelines.
+We are committed to protecting your privacy and complying with all applicable privacy laws and Apple's App Store Review Guidelines. This privacy policy has been specifically crafted to meet Apple's requirements for face data collection, storage, and third-party sharing transparency as outlined in Guideline 5.1.1.
